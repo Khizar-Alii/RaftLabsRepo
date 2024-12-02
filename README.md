@@ -1,50 +1,38 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# RaftLabs
 
-## Get started
+# How to run the app
 
-1. Install dependencies
+#Follow these steps to set up and run the app on your computer or phone:
 
-   ```bash
-   npm install
-   ```
+=> Node.js: Download and install from Node.js official website. https://nodejs.org/en
 
-2. Start the app
+#Expo CLI: This is used to create and run React Native apps. Install it by running the command:
 
-   ```bash
-    npx expo start
-   ```
+ => npm install -g expo-cli
 
-In the output, you'll find options to open the app in a
+Clone the app repository from GitHub or download the zip file.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+git clone https://github.com/your-repo-link.git
+cd your-app-folder
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Step 3: Install Dependencies
+Run this command to install all the libraries and packages the app needs:
 
-## Get a fresh project
+npm install
+Step 4: Start the App
+Run the Expo development server:
+*expo start
 
-When you're ready, run:
+Step 5: Test the App on Your Device
 
-```bash
-npm run reset-project
-```
+Install the Expo Go app from the Google Play Store 
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Scan the QR code shown in the browser with the Expo Go app.
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+Step 6: View the App
+Once you scan the QR code or launch the emulator, the app will load, and you’ll see the home screen.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
